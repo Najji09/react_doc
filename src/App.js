@@ -1,11 +1,22 @@
 import './App.css';
-import Component_Props from './Component_Props';
+import ComponentProps from './Component_Props';
 import Clock from './State_life_Cycle';
+import HandlingEvents from './HandlingEvents';
+import LoginControl from './conditional_rendering';
+import ListKey from './List_Key';
+import Form from './Form';
+import LiftingState from './Lifting_state';
+
 function App() {
   return (
     <div className="App">
-      <Component_Props />
+      <ComponentProps />
       <Clock />
+      <HandlingEvents />
+      <LoginControl />
+      <ListKey />
+      <Form />
+      <LiftingState />
     </div>
   );
 }

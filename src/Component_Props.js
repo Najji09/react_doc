@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 function formatDate(date) {
   return date.toLocaleDateString();
@@ -46,7 +46,7 @@ const commentTwo = {
   },
 };
 
-let Component_Props = () => {
+let ComponentProps = () => {
   return (
     <div className="component_props">
       <Comment
@@ -63,4 +63,4 @@ let Component_Props = () => {
   );
 };
 
-export default Component_Props;
+export default ComponentProps;
