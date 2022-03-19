@@ -6,6 +6,7 @@ import LoginControl from './conditional_rendering';
 import ListKey from './List_Key';
 import Form from './Form';
 import LiftingState from './Lifting_state';
+import ComponentInheritence from './Composition_inheritence';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <ListKey />
       <Form />
       <LiftingState />
+      <ComponentInheritence />
     </div>
   );
 }
