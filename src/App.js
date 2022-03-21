@@ -7,6 +7,7 @@ import ListKey from './List_Key';
 import Form from './Form';
 import LiftingState from './Lifting_state';
 import ComponentInheritence from './Composition_inheritence';
+import ThinkingReact from './thinking_react';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Form />
       <LiftingState />
       <ComponentInheritence />
+      <ThinkingReact />
     </div>
   );
 }
